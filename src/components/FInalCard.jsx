@@ -1,10 +1,13 @@
 import { NextPayoutCard } from "./NextPayoutCard"
 import { RevenueCard } from "./RevenueCard"
 import { AmountProcessedCard } from "./AmountProcessedCard"
+import { Topbar } from "./TopBar"
 
 
 export function FinalCard(){
     return <>
+
+    <Topbar></Topbar>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-2">
         
 
