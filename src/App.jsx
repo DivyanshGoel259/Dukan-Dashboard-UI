@@ -9,9 +9,9 @@ import { SideBar } from "./components/SideBar"
 function App(){
     return <>
     <div >
-        <SideBar title = {"Nishyan"}></SideBar>
+        {/* <SideBar title = {"Nishyan"}></SideBar> */}
 
-        {/* <FinalCard></FinalCard> */}
+        <FinalCard></FinalCard>
 
 
     </div>
