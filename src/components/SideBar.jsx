@@ -4,7 +4,7 @@ export const SideBar = ({
 }) => {
 
     return (
-        <div className="bg-[#1E2640] h-[100vh] ">
+        <div className="bg-[#1E2640]  lg:h-full">
             <div className="flex justify-between flex p-4  items-center">
                 <div className=" flex " >
                     <div className="flex">

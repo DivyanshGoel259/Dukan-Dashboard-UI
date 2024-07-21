@@ -3,7 +3,7 @@ export const AmountProcessedCard = ({
     amount
 }) =>{
 
-    return <div className="bg-white rounded shadow-md hover:bg-green-100 p-4">
+    return <div className="bg-white rounded shadow-md hover:bg-green-100 p-4  w-full">
 
         <div className="text-gray-700 flex items-center">
             <div>

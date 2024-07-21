@@ -3,7 +3,7 @@ export const RevenueCard = ({
     orderCount,
     amount
 }) =>{
-    return <div className="bg-white rounded shadow-md p-4 hover:bg-green-100 h-full w-full">
+    return <div className="bg-white rounded shadow-md p-4 hover:bg-green-100  w-full">
         <div className="text-gray-700 flex flex flex-col justify-center">
             <div className="flex ">
                 <div>

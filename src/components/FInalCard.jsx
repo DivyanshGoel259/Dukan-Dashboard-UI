@@ -3,6 +3,9 @@ import { RevenueCard } from "./RevenueCard"
 import { AmountProcessedCard } from "./AmountProcessedCard"
 import { Topbar } from "./TopBar"
 import { SideBar } from "./SideBar"
+import { Overview } from "./Overview"
+import { BasicTable } from "./Table"
+import { Transaction } from "./Transactions"
 
 
 export function FinalCard() {
@@ -15,6 +18,7 @@ export function FinalCard() {
             <div className="col-span-11 lg:col-span-9">
 
                 <Topbar></Topbar>
+                <Overview></Overview>
                 <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 m-2">
 
 
@@ -29,6 +33,12 @@ export function FinalCard() {
                     </div>
 
 
+                </div>
+                <div>
+                    <Transaction refunds={22} payouts={14}></Transaction>
+                </div>
+                <div>
+                    <BasicTable></BasicTable>
                 </div>
             </div>
         </div>

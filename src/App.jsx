@@ -4,12 +4,14 @@ import { AmountProcessedCard } from "./components/AmountProcessedCard"
 import { FinalCard } from "./components/FInalCard"
 import { Topbar } from "./components/TopBar"
 import { SideBar } from "./components/SideBar"
+import { BasicTable } from "./components/Table"
+import { Transaction } from "./components/Transactions"
 
 
 function App(){
     return <>
     <div >
-        {/* <SideBar title = {"Nishyan"}></SideBar> */}
+        {/* <Transaction refunds={22} payouts={14}></Transaction> */}
 
         <FinalCard></FinalCard>
 
